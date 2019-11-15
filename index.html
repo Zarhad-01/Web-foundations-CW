@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="./css/layout.css" rel="stylesheet" type="text/css">
+    <link href="./css/general.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <main>
+        <nav id="navbar">
+            <ul id="nav-ulist">
+                <li><a href="index.html" class="nav-hyplink" id="active-page" title="This link takes you to my Homepage">Homepage</a></li>
+                <li><a href="discovery.html" class="nav-hyplink" title="This link takes you to my Discovery Log">Discovery Log</a></li>
+                <li><a href="litreview.html" class="nav-hyplink" title="This link takes you to my Literature Review">Literature Review</a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+            <h1 id="toppg">Homepage</h1>
+            <p>
+                Hello! And welcome to my homepage for my website!
+                I am a 1st Year Computer science student and this is my first ever website I have made!
+            </p>
+            <p>Below you can find my media! If you look up, there is the navbar! WOOOAAh WHAT.</p>
+        </section>
+
+        <section>
+            <h2>Media</h2>
+            <video id="video"  controls>
+                <source src="./video/video-mp4.mp4" type="video/mp4">
+                <source src="./video/video-ogg.ogv" type="video/ogg">
+                <source src="./video/video-webm.webm" type="video/webm">
+                <track default kind="captions" srclang="en" src="./video/video-sub.vtt">
+            </video>
+
+            <p>
+                The below images all scale.
+                The one of the guy performing gets smaller as well as becoming more portrait.
+                The rest just scale down, this is shown by the percentage text that is displayed on them!
+            </p>
+
+            <picture>
+                <source srcset="./img/pide/pide-big.jpg" media="(min-width: 1300px)">
+                <source srcset="./img/pide/pide-med.jpg" media="(min-width: 768px)">
+                <img src="./img/pide/pide-small.jpg" alt="Pide, it's a type of food!" title="Pide, it's a type of food!">
+            </picture>
+
+            <picture>
+                <source srcset="./img/wall/wall-big.jpg" media="(min-width: 1300px)">
+                <source srcset="./img/wall/wall-med.jpg" media="(min-width: 768px)">
+                <img src="./img/wall/wall-small.jpg" alt="Just a good looking wall!" title="Just a good looking wall!">
+            </picture>
+
+            <picture>
+                <source srcset="./img/brian/brian-big.jpg" media="(min-width: 1300px)">
+                <source srcset="./img/brian/brian-med.JPG" media="(min-width: 768px)">
+                <img src="./img/brian/brian-small.JPG" alt="Rich Brian Consert woah!" title="Rich Brian Consert woah!">
+            </picture>
+
+            <picture>
+                    <source srcset="./img/distant/distant-big.jpg" media="(min-width: 1300px)">
+                    <source srcset="./img/distant/distant-med.jpg" media="(min-width: 768px)">
+                    <img src="./img/distant/distant-small.jpg" alt="What!? I went to an orchestra once??" title="What!? I went to an orchestra once??">
+                </picture>
+    
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="#toppg">Go back to the top of the page!</a></p>
+        <p><a href="https://validator.w3.org/check?uri=referer">Hey! wanna check my HTML validaion! CLICK ON ME TO FIND OUT! </a></p>
+    </footer>
+</body>

@@ -1,0 +1,48 @@
+
+video{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 0.25em;
+}
+
+.grid-wrapper span {
+    padding-bottom: 1em;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.disc-log{
+     padding-top: 2em;
+     border-top: 1px solid rgb(71, 71, 71);
+     border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+
+.disc-log:hover{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+}
+
+h1{
+    font-size: 160%;
+}
+img{
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+
+
